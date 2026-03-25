@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Văn Admin",
+      "email": "admin@sportshop.com",
+      "password": "hashedpassword123",
+      "role": "Admin",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "fullName": "Mai Tiêu Bảo",
+      "email": "maitieubao@gmail.com",
+      "password": "hashedpassword456",
+      "role": "Khách hàng",
+      "status": "active"
+    },
+    {
+      "id": 3,
+      "fullName": "Lê Khách Hàng",
+      "email": "khachhang1@gmail.com",
+      "password": "hashedpassword789",
+      "role": "Khách hàng",
+      "status": "active"
+    }
+  ],
+  "config": {
+    "errorMessages": {
+      "emptyField": "Vui lòng không để trống thông tin này.",
+      "invalidEmail": "Email không đúng định dạng.",
+      "passwordShort": "Mật khẩu phải có ít nhất 8 ký tự."
+    }
+  }
+}
